@@ -1,14 +1,73 @@
 body{
     background-color: black;
-    color: white;
 }
 .nav{
     background-color: aqua;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 5em;
+    height: em;
     border: solid 0.1em black;
     border-radius: 2em;
-    
+    font-size: 2em;
+    font-weight: 600;
+    color: black;
+
+}
+#nav1{
+    padding: 0.4em;
+    color: black;
+}
+#nav2{
+    padding: 0.4em;
+    color: black;
+}
+#nav3{
+    padding: 0.4em;
+    color: black;
+}
+#nav1:hover{
+    border-bottom: solid 0.2em black;
+
+}
+#nav2:hover{
+    border-bottom: solid 0.2em black;
+
+}
+#nav3:hover{
+    border-bottom: solid 0.2em black;
+
+}
+.blog{
+
+    background-color: rgb(208, 133, 79);
+    border: solid 0.2em black;
+    height: 40em;
+    width: 70em;
+    position: relative;
+    top: 5em;
+    left: 8em;
+    border-radius: 2em;
+
+}
+#bin{
+    position: relative;
+    top: 1em;
+    left: 25%;
+    font-size: 3em;
+    color: black;
+    font-weight: 600;
+
+}
+textarea{
+    position: relative;
+    top: 8em;
+    left: 6em;
+    opacity: 0.6;
+    height: 30em;
+    width: 60em;
+}
+.blog:hover{
+    scale: 1.1;
+    transition-duration: 3s;
 }
